@@ -35,7 +35,7 @@ if "knowledge_content" not in st.session_state:
     st.session_state.knowledge_content = ""
 
 # Knowledge base file path (should be in the same directory as the script)
-KNOWLEDGE_BASE_FILE = r"C:\Users\abdul\Downloads\gab\customer_support\Paystack_FAQ_and_Documentation.txt"
+KNOWLEDGE_BASE_FILE = "Paystack_FAQ_and_Documentation.txt"
 
 class CustomerSupportBot:
     def __init__(self):
