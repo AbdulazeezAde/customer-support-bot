@@ -166,7 +166,7 @@ def setup_sidebar():
     # Model selection
     model_option = st.sidebar.selectbox(
         "Select AI Model",
-        ["GPT-3.5-turbo", "Gemini-1.5-flash"],
+        ["Gemini-1.5-flash", "GPT-3.5-turbo"],
         index=0
     )
     st.session_state.selected_model = model_option
